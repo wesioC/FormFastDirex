@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light dark;
+  --primary-text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+}
+
+body {
+  margin-left: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #app {
+    max-width: 960px;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #app {
+    max-width: 720px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #app {
+    max-width: 540px;
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #app {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+/* Optional: Adjust font size for smaller screens */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.875rem; /* Adjust as necessary */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-text-color: rgba(255, 255, 255, 0.87); /* Texto principal em modo escuro */
+    --background-color: #242424; /* Fundo em modo escuro */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-text-color: rgba(0, 0, 0, 0.87); /* Texto principal em modo claro */
+    --background-color: #ffffff; /* Fundo em modo claro */
+  }
+}

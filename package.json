@@ -1,0 +1,29 @@
+{
+  "name": "form-fast-direxrv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "file-saver": "^2.0.5",
+    "maska": "^3.0.0",
+    "mdi-vue": "^3.0.13",
+    "pdf-lib": "^1.17.1",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0",
+    "vuetify": "^3.6.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "globals": "^15.8.0",
+    "vite": "^5.3.4"
+  }
+}
